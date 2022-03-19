@@ -1,0 +1,20 @@
+.noTasks {
+    background-color: #607d8b;
+}
+.task-name{
+    background-color: #00bcd4;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    /* text-decoration: line-through; */
+}
+.ctrl {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+.update {
+    right: 85px;
+}

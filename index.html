@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>ToDo List</title>
+  </head>
+
+  <body class="bg-light">
+
+    <section >
+      <div class="header bg-info text-center text-white py-3">
+        <h3>ToDo List</h3>
+      </div>
+
+
+      <div class="w-50 mx-auto my-3">
+        <div class="position-relative">
+          <input type="text" class="form-control task-input" placeholder="Enter The Task">
+          <div class="alert alert-danger mt-2 visually-hidden">Enter The Task!!!</div>
+          <button class="add btn btn-primary px-3 fw-bolder  position-absolute top-0 end-0">+</button>
+          <button class="edite btn btn-warning px-3 visually-hidden  position-absolute top-0 end-0">Edite</button>
+        </div>
+
+        <div class="tasks my-3 text-white">
+          <div class="noTasks alert p-2 ">No Tasks To Show</div>
+          <div class="task-list">
+          </div>
+        </div>
+
+        <div>
+          <div class="tasks float-start">Tasks <span class="total-tasks bg-danger text-white rounded px-1">0</span></div>
+          <div class="float-end">completed <span class="completed bg-info text-white rounded px-1">0</span></div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
